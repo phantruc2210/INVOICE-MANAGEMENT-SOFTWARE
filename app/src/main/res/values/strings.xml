@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quản Lý Hóa Đơn</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="dvt_options">
+        <item>Cái</item>
+        <item>Hộp</item>
+        <item>Bộ</item>
+        <item>Quyển</item>
+        <item>Cây</item>
+    </string-array>
+
+    <string-array name="pttt_options">
+        <item>Chuyển khoản</item>
+        <item>Tiền mặt</item>
+    </string-array>
+
+    <string-array name="thong_ke_options">
+        <item>Ngày</item>
+        <item>Tháng</item>
+        <item>Quý</item>
+        <item>Năm</item>
+    </string-array>
+
+
+</resources>

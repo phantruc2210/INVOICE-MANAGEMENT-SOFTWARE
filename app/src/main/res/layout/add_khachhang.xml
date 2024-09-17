@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="316dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/makh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Mã KH"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/tenkh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tên KH"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/diachikh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Địa Chỉ"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/ngaysinhkh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ngày Sinh (dd/MM/yyyy)"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/dienthoaikh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Điện Thoại"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/emailkh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email KH"
+            android:inputType="textEmailAddress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thành viên"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/co"
+                    android:layout_width="132dp"
+                    android:layout_height="wrap_content"
+                    android:text="Có" />
+
+                <RadioButton
+                    android:id="@+id/khong"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:text="Không" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d4cfcf"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

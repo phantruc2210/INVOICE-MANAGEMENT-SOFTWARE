@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textViewTenSP"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tên SP"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewDonGia"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đơn giá"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewSoLuong"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Số lượng"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewThanhTien"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thành tiền"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/navigation_view_background"/> <!-- Màu nền xanh dương -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/icon"/> <!-- Biểu tượng của bạn -->
+    </item>
+</layer-list>

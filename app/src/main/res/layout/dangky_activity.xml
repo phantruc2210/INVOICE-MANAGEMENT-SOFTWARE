@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_view_background">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="62dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/acme"
+                android:text="MOSS"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/adamina"
+                android:text="THÔNG TIN TÀI KHOẢN"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtNvMa"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Mã NV" />
+
+            <EditText
+                android:id="@+id/edtNvHo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Họ" />
+
+            <EditText
+                android:id="@+id/edtNvTen"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Tên" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="Giới tính"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radNam"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nam"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radNu"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="Nữ"
+                        android:textSize="18sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtNvNgaySinh"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Ngày Sinh (dd/MM/yyyy)"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/edtNvDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Địa Chỉ"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/edtNvDienThoai"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Điện Thoại"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/edtNvNoiSinh"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Nơi Sinh"
+                android:inputType="textPhonetic" />
+
+            <EditText
+                android:id="@+id/edtNvNgayVL"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Ngày Vào Làm (dd/MM/yyyy)"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/edtNvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <Button
+                android:id="@+id/btnTiepTuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/layout_button"
+                android:text="TIẾP TỤC"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textDN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/adamina"
+                android:text="Quay lại đăng nhập?"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
